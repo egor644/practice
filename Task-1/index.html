@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        @font-face {
+            font-family: 'A.C.M.E';
+            src: url(fonts\A.C.M.E/acmenormal.ttf) format('opentype');
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            src: url(fonts/OpenSans/OpenSans-Regular.ttf) format('truetype');
+            font-weight: 400;
+        }
+
+        @font-face {
+            font-family: 'Open Sans';
+            src: url(fonts/OpenSans/OpenSans-Bold.ttf) format('truetype');
+            font-weight: 700;
+        }
+    </style>
+    <title>Home</title>
+</head>
+<body>
+    <div class="container">
+        <div class="home padding" id="home">
+            <div class="home__main">
+                    <header>
+                        <nav class="nav ">
+                                <div class="nav__part">
+                                    <a class="nav__text text_light" href="#footer">HOME</a>
+                                    <a class="nav__text text_light" href="#about">ABOUT</a>
+                                    <a class="nav__text text_light" href="#">TEAM</a>
+                                    <a class="nav__text text_light" href="#booking">BOOKING</a>
+                                </div>
+                                <div class="nav__rudder">
+                                    <img class="rotate-center" src="img/Vector.svg" alt="rudder">
+                                </div>
+                                <div class="nav__part">
+                                    <a class="nav__text text_light" href="#">MENU</a>
+                                    <a class="nav__text text_light" href="#">GALERIE</a>
+                                    <a class="nav__text text_light" href="#">EVENTS</a>
+                                    <a class="nav__text text_light" href="#contact">CONTACT</a>
+                                </div>
+                        </nav>
+                    </header>
+                    <div class="home__content">
+                        <div class="home__content-center">
+                            <h6 class="text_light home__content-heading text_spacing">RESTAURANT</h6>
+                            <h1 class="text_light heading heading__name home__content-name text-focus-in">Fancy SaIlor</h1>
+                            <div class="home_buttons">
+                                <button class="text_light button home__button">BOOK TABLE</button>
+                                <button class="text_light button home__button">EXPLORE</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+
+            </div>
+        </div>
+        
+        <main>
+            <section class="about" id="about">
+                <div class="flex_blocks padding">
+                    <div class="text_block text_block-right">
+                        <h2 class="text_dark heading heading__name-block text_block__heading">about us</h2>
+                        <h3 class="text_dark text_block__bold text_block__bold text_block__bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h3>
+                        <p class="text_dark text_block__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+                    </div>
+                    <div class="image image_right">
+                        <img src="img/about_img.png" alt="about">
+                    </div>
+                </div>
+            </section>
+            
+          
+            
+            <section class="booking" id="booking">
+                <div class="flex_blocks padding">
+                	<div class="image image_right">
+                        <img src="img/clock.png" alt="clock">
+                    </div>
+                    <div class="text_block text_block-right">
+
+                        <form class="form booking__form" action="#">
+                            <h2 class="text_dark heading heading__name-block text_block__heading booking__heading">book a table</h2>
+                            <div class="form__grid booking__grid">
+                                <input class="text_faded form__input" type="text" placeholder="Name">
+                                <input class="text_faded form__input" type="email" placeholder="Email">
+                                <input class="text_faded form__input" type="tel" placeholder="Phone">
+                                <input class="text_faded form__input" type="number" placeholder="people">
+                                <input class="text_faded form__input" type="date">
+                                <input class="text_faded form__input" type="time">
+                            </div>
+                            <button class="text_light button button_active booking__button" type="submit">BOOK NOW</button>
+                        </form>
+                    </div>
+                    
+                </div>
+                <p class="text-color padding">Mon - Fri: <strong>8PM - 10PM</strong>, Sat - Sun: <strong>8PM - 3AM</strong>, Phone: <strong>+40 729 131 637/+40 726 458 782</strong></p>
+            </section>
+            
+            <section class="specialties content padding">
+                <div class="content__main">
+                    <h6 class="text_light content__heading"> specialties</h6>
+                <div class="flex_blocks">
+                    <div class="image image_left">
+                        <img src="img/desert.png" alt="desert">
+                    </div>
+                    <div class="text_block text_block-left">
+                        <h2 class="text_light heading heading__name-block text_block__heading">chocolate pancakes</h2>
+                        <h3 class="text_light text_block__bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h3>
+                        <p class="text_light text_block__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+                    </div>
+                </div>
+                </div>
+            </section>
+            
+            <section class="contact text_block-short padding" id="contact">
+                <form class="form contact__form" action="#">
+                    <h2 class="text_dark heading heading__name-block heading text_block__heading text_block-short__heading">CONTACT</h2>
+                    <h3 class="text_dark text_block__bold text_block-short__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h3>
+                    <div class="form__grid contact__grid">
+                        <input class="text_faded form__input" type="text" placeholder="Name">
+                        <input class="text_faded form__input" type="email" placeholder="Email">
+                        <input class="text_faded form__input" type="tel" placeholder="Phone">
+                        <textarea class="text_faded form__input" name="#" id="#" placeholder="Message"></textarea>
+                    </div>
+                    <div class="contact__form-bottom">
+                        <button class="text_light button button_active contact__button" type="submit">SEND MESSAGE</button>
+                    </div>
+                </form>
+            </section>
+            
+        </main>
+        
+        <footer class="footer">
+            <p class="small_text">© Copyright Fancy Sailor 2014</p>
+        </footer>
+
+
+    </div>
+    
+</body>
+</html>
